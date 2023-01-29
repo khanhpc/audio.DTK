@@ -66,12 +66,38 @@ const app = {
     // sliderIndex: 0,
     songsData: [
 
+        
+
+        {
+            background: './assets/img/songs/uocmocuame.webp',
+            name: 'Ước Mơ Của Mẹ',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/uocmocuame.mp3',
+            duration: '03:53',
+        },
+
         {
             background: './assets/img/songs/ganhme.webp',
             name: 'Gánh Mẹ',
             singer: 'Dương Tuấn Khanh',
             pathSong: './assets/music/list-song/ganhme.mp3',
             duration: '04:56',
+        },
+
+        {
+            background: './assets/img/songs/gapmetrongmo.webp',
+            name: 'Gặp Mẹ Trong Mơ',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/gapmetrongmo.mp3',
+            duration: '03:47',
+        },
+
+        {
+            background: './assets/img/songs/nhatkycuame.webp',
+            name: 'Nhật Ký Của Mẹ',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/nhatkycuame.mp3',
+            duration: '08:18',
         },
 
         {
