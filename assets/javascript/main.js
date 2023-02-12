@@ -66,16 +66,6 @@ const app = {
     // sliderIndex: 0,
     songsData: [
 
-        
-
-        {
-            background: './assets/img/songs/uocmocuame.webp',
-            name: 'Ước Mơ Của Mẹ',
-            singer: 'Dương Tuấn Khanh',
-            pathSong: './assets/music/list-song/uocmocuame.mp3',
-            duration: '03:53',
-        },
-
         {
             background: './assets/img/songs/ganhme.webp',
             name: 'Gánh Mẹ',
@@ -85,6 +75,63 @@ const app = {
         },
 
         {
+            background: './assets/img/singer/khanh.jpg',
+            name: 'Chiếc Khăn Gió Ấm',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/chieckhangioam.mp3',
+            duration: '04:17',
+        },
+
+        {
+            background: './assets/img/singer/khanh.jpg',
+            name: 'Cầu Vồng Khuyết',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/cauvongkhuyet.mp3',
+            duration: '04:11',
+        },
+
+        {
+            background: './assets/img/singer/khanh.jpg',
+            name: 'Tìm Lại Bầu Trời',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/timlaibautroi.mp3',
+            duration: '05:28',
+        },
+        
+        {
+            background: './assets/img/singer/khanh.jpg',
+            name: 'Ngôi Nhà Hoa Hồng',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/ngoinhahoahong.mp3',
+            duration: '05:45',
+        },
+
+        {
+            background: './assets/img/songs/cauvongsaumua.webp',
+            name: 'Cầu Vồng Sau Mưa',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/cauvongsaumua.mp3',
+            duration: '04:56',
+        },
+
+        {
+            background: './assets/img/songs/uocmocuame.webp',
+            name: 'Ước Mơ Của Mẹ',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/uocmocuame.mp3',
+            duration: '03:53',
+        },
+
+        
+
+        {
+            background: './assets/img/songs/nhatkycuame.webp',
+            name: 'Nhật Ký Của Mẹ',
+            singer: 'Dương Tuấn Khanh',
+            pathSong: './assets/music/list-song/nhatkycuame.mp3',
+            duration: '08:18',
+        },
+        {
             background: './assets/img/songs/gapmetrongmo.webp',
             name: 'Gặp Mẹ Trong Mơ',
             singer: 'Dương Tuấn Khanh',
@@ -93,11 +140,11 @@ const app = {
         },
 
         {
-            background: './assets/img/songs/nhatkycuame.webp',
-            name: 'Nhật Ký Của Mẹ',
+            background: './assets/img/singer/khanh.jpg',
+            name: 'Mùa Đông Không Lạnh',
             singer: 'Dương Tuấn Khanh',
-            pathSong: './assets/music/list-song/nhatkycuame.mp3',
-            duration: '08:18',
+            pathSong: './assets/music/list-song/muadongkhonglanh.mp3',
+            duration: '04:17',
         },
 
         {
@@ -268,13 +315,7 @@ const app = {
             pathSong: './assets/music/list-song/15.m4a',
             duration: '03:51',
         },
-        {
-            background: './assets/img/songs/cauvongsaumua.webp',
-            name: 'Cầu Vồng Sau Mưa',
-            singer: 'Dương Tuấn Khanh',
-            pathSong: './assets/music/list-song/cauvongsaumua.mp3',
-            duration: '04:56',
-        },
+       
 
     ],
     currentIndex: 0,
